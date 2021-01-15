@@ -1,0 +1,23 @@
+.board button {
+  width: 80px;
+  height: 80px;
+  background-color: gray;
+  border-radius: 50%;
+  border: 5px solid black; /*this gets rid of bootstrap shadow */
+  margin: 1px;
+}
+
+.jumbotron p{
+  font-size: 30px;
+}
+    
+    /* small screens */
+@media(max-width:650px){
+  .board button{
+    height: 45px;
+    width: 45px;
+    border: 2.5px solid black;
+    margin: 0.8px;
+  }
+
+}
