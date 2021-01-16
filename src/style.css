@@ -1,3 +1,11 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #EDF4ED;
+}
+
 .board button {
   width: 80px;
   height: 80px;
@@ -7,8 +15,14 @@
   margin: 1px;
 }
 
+.jumbotron{
+  background-color: #001242;
+  margin-top: 30px;
+}
+
 .jumbotron p{
-  font-size: 30px;
+  font-size: 32px;
+  color: white;
 }
     
     /* small screens */
